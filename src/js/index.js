@@ -1,6 +1,14 @@
 import Vue from 'vue/dist/vue.js'
 Vue.config.productionTip = true;
 
+import Axios from 'axios'
+Vue.use(Axios)
+
+import Vuelidate from 'vuelidate'
+Vue.use(Vuelidate)
+
+
+
 
 Vue.mixin({
   data: function() {

@@ -185,3 +185,5 @@
 
 </div>
 <!-- END Wrapper -->
+
+<contact></contact> 
