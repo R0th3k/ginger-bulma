@@ -1,0 +1,11 @@
+# humanstxt.org/
+# Las personas responsables, equipo de trabajo, agencias, etc
+
+# EQUIPO
+Hektor Peña - Desarrollo web - https://hektor.mx/
+
+# GRACIAS
+<nombres>
+
+# TECNOLOGÍAS
+PHP, MVC, HTML5, CSS3, Sass, Gulp, Bootstrap 4, BrowserSync, jQuery, Modernizr

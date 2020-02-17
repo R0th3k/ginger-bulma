@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,500,700,900,800,600);
+
+.e404 {
+  font-family: 'Work Sans', sans-serif;
+  background: $primary;
+  color: #fff;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotateZ(20deg);
+  font-size: 200px;
+  font-weight: 800;
+  text-shadow: rgb(51,153,255) 1px 1px,
+    rgb(51,153,255) 2px 2px,
+    rgb(51,153,255) 3px 3px,
+    rgb(51,153,255) 4px 4px,
+    rgb(51,153,255) 5px 5px,
+    rgb(51,153,255) 6px 6px,
+    rgb(51,153,255) 7px 7px,
+    rgb(51,153,255) 8px 8px,
+    rgb(0, 97, 194) 9px 9px,
+    rgb(0, 97, 194) 10px 10px,
+    rgb(0, 97, 194) 11px 11px;
+    
+}
+
+h1::after {
+  display: block;
+  content: 'Lo sentimos, pero la página que intentaba ver no existe.';
+  font: 600 21px/1.8 'Work Sans', sans-serif;
+  text-shadow: rgb(51,153,255) 1px 1px,
+    rgb(51,153,255) 2px 2px,
+    rgb(51,153,255) 3px 3px,
+    rgb(51,153,255) 4px 4px,
+    rgb(51,153,255) 5px 5px,
+    rgb(51,153,255) 6px 6px;
+}
+}

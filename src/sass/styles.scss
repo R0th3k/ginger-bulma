@@ -1,0 +1,17 @@
+$fa-font-path:"https://hektor.mx/ginger/assets/webfonts";//Cambiar por la url absoluta de tu proyecto
+
+@import "./fa/fontawesome.scss";
+@import "./fa/regular.scss";
+@import "./fa/solid.scss";
+@import "./fa/brands.scss";
+@import "./fa/v4-shims.scss";
+
+@import "./core/bulma-colors";
+// @import "../../node_modules/bootstrap/scss/bootstrap";
+// @import "../../node_modules/bootstrap-vue/src/index.scss";
+
+@import "../../node_modules/bulma/bulma";
+@import "./core/index";
+@import "./theme/index";
+@import "./theme/example";
+
